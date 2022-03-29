@@ -1,0 +1,239 @@
+p, li, a,  h2, h3, h4{
+    color: rgb(221, 221, 221);
+    font-family: "comic_sans";
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    
+  }
+  
+  body {
+    width: 100%;
+    min-width: 800px;
+    margin: 0 auto;
+    background-image: url(picture/saturn.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    z-index: -1;
+  }
+  
+  article img{
+    max-width:50%;
+    max-height:50%;
+    vertical-align:top;
+  }
+  
+  a:link,a:visited {
+  color: #ffffff;
+  }
+  
+  
+  a:hover {
+  text-decoration: none;
+  }
+  
+  article img .railgun{
+    max-width:50%;
+    max-height:50%;
+    vertical-align:top;
+  }
+
+#leftnav{
+    color: rgb(255, 255, 255);
+}
+
+#icon{
+    flex:0.5;
+    float: right;
+}
+
+
+#navpage{
+    color: rgb(87, 154, 255);
+    font-size: 2rem;
+    text-transform: none;
+}
+
+#achr{
+    border-color: white;
+    border-style:inset;
+}
+
+#ac_only_img{
+  float: left;
+}
+
+#header_bg{
+  position:absolute;
+    margin-top: 0px;
+    z-index:-2;
+    height: 250px;
+    width: 1900px;
+}    
+
+  
+#middle_intro{
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#astro_info_main{
+  padding-top: 0px;
+}
+
+#redLight{
+  color: red;
+}
+
+#stargazing2bring{
+  color:rgb(151, 161, 255)
+}
+
+#mem_list{
+  padding-left: 450px;
+  font-size: 3 rem;
+}
+
+hr{
+  border-color: white;
+  border-style:dotted;
+}
+
+.animg{
+    float:right;
+    height: 200px;
+}
+
+.acimg{
+  float:right;
+}
+
+.acinfo{
+  float: right;
+  font-size:10px;
+}
+
+.ach4{
+  color:rgb(142, 187, 255);
+  font-size: 20px;
+}
+  h1{
+    font-size: 4rem;
+    text-align: center;
+    flex: 5;
+   
+    color:rgb(255, 255, 255)
+  }
+
+ 
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
+  
+  h3 { 
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  h4 {
+     text-align: left;
+  }
+  
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+  
+  header {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(0, 0, 0, 0.397);
+  }
+  
+  nav {
+    background-color: rgba(158, 158, 158, 0.178);
+    padding: 1%;
+  }
+  
+  main, article, aside, footer, section {
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 1%;
+  }
+  
+  main,article{
+    padding: 0px;
+  }
+
+  
+
+  
+  nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+
+  
+  main {
+    display: flex;
+  }
+  
+  article, section {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 4;
+    margin-left: 5px;
+    padding: 1%;
+  }
+  
+  
+  
+  aside img {
+    max-width: 100%;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+  

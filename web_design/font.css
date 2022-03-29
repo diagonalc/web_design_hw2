@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "comic_sans";
+    src: url(font/Comic_Sans_MS.ttf);
+    
+  }
+
+p, h1, h2, h3, h4, li {
+    font-family: "comic_sans";
+}
